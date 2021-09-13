@@ -4,7 +4,6 @@
   "environment": {
     "hideintro": true, 
     "hidefinish": true,
-    "showvisualise": true,
 
     "uilayout": "terminal"
   },
