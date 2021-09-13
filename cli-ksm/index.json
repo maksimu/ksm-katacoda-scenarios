@@ -1,4 +1,7 @@
 {
+
+  "noindex": true,
+
   "title": "KSM CLI",
 
   "environment": {
@@ -10,12 +13,17 @@
 
   "details": {
     "steps": [
-      {
-        "title": "Step 1",
-        "text": "step1.md"
-      }
-    ]},
-
+        {
+            "title": "Step 1",
+            "text": "step1.md"
+        }
+      ],
+    "intro": {
+        "text": "intro.md",
+        "code": "foreground.sh",
+        "credits": ""
+    }
+},
 
 
 
