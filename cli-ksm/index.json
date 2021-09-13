@@ -1,0 +1,18 @@
+{
+  "title": "KSM CLI",
+
+  "environment": {
+    "hideintro": true, 
+    "hidefinish": true,
+    "showvisualise": true,
+
+    "uilayout": "terminal"
+  },
+
+
+
+
+  "backend": {
+    "imageid": "python:3.8"
+  }
+}
