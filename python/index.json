@@ -1,8 +1,6 @@
 {
-  "title": "KSM JavaScript SDK Example",
+  "title": "KSM Python SDK Example",
   "description": "",
-  "difficulty": "Beginner",
-  "time": "2",
   "details": {
     "steps": [
       {
@@ -37,6 +35,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "nodejs:12"
+    "imageid": "javascript"
   }
 }
