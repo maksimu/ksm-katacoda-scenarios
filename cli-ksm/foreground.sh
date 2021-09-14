@@ -1,6 +1,6 @@
-echo "This is automatically run when the scenario"
+# echo "This is automatically run when the scenario"
 
-pwd
-ls -lha
+# pwd
+# ls -lha
 
-python --version
+# python --version
