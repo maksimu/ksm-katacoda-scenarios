@@ -1,7 +1,7 @@
 
-# Install Commander:
+# Install Commander
 
-`pip3 install keepercommander` {{execute}}
+`pip3 install keepercommander`{{execute}}
 
 # Connect
 
