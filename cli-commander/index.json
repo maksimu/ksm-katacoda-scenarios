@@ -1,0 +1,33 @@
+{
+
+  "noindex": true,
+
+  "title": "Commander CLI",
+
+  "environment": {
+    "hideintro": true, 
+    "hidefinish": true,
+
+    "uilayout": "terminal"
+  },
+
+  "details": {
+    "steps": [
+        {
+            "title": "Step 1",
+            "text": "step1.md"
+        }
+      ],
+    "intro": {
+        "text": "intro.md",
+        "code": "foreground.sh",
+        "credits": ""
+    }
+},
+
+
+
+  "backend": {
+    "imageid": "python:3.8"
+  }
+}
