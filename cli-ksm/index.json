@@ -2,7 +2,7 @@
 
   "noindex": true,
 
-  "title": "KSM CLI",
+  "title": "KSM CLI Concepts",
 
   "environment": {
     "hideintro": true, 
@@ -14,13 +14,17 @@
   "details": {
     "steps": [
         {
-            "title": "Step 1 - Install pre-requisites",
+            "title": "Step 1 - Pre-requisites",
             "text": "step1.md"
         },
         {
-          "title": "Step 2 - Setting up Application and Client",
+          "title": "Step 2 - KSM Secrets Setup",
           "text": "step2.md"
-      }
+        },
+        {
+          "title": "Step 3 - KSM CLI",
+          "text": "step3.md"
+        }
       ],
     "intro": {
         "text": "intro.md",

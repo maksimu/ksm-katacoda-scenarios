@@ -13,7 +13,7 @@
 
 ## Create KSM Application
 
-`secrets-manager app MyTestApp`
+`secrets-manager app MyTestApp`{{execute}}
 
 ## Add Shared Folder to the KSM Application
 
