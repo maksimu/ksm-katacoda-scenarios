@@ -1,3 +1,2 @@
-python --version
-
-pip3 list
+# python --version
+# pip3 list
