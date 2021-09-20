@@ -1,0 +1,19 @@
+{
+  "title": "KSM .NET Example",
+  "description": "",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      }
+    ]
+    
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "dotnet:3.1"
+  }
+}

@@ -1,3 +1,3 @@
 
 
-`myfile.js`{{open}}
+`myfile.py`{{open}}
