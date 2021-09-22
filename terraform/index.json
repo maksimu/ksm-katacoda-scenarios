@@ -1,0 +1,18 @@
+{
+  "title": "KSM Terraform Example",
+  "description": "",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      }
+    ]
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "golang:1.14"
+  }
+}
