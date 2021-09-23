@@ -4,9 +4,14 @@
   "details": {
     "steps": [
       {
-        "title": "Install Terraform",
+        "title": "Install KSM Terrarom Provider",
         "text": "step1.md"
+      },
+      {
+        "title": "Install Terraform",
+        "text": "step2.md"
       }
+
     ],
     "intro": {
       "text": "intro.md",
