@@ -5,9 +5,9 @@
 # Source: https://learn.hashicorp.com/tutorials/terraform/install-cli
 echo "DDD"
 apt-get update
+apt-get install -y curl
 apt-get install -y gnupg 
 apt-get install -y software-properties-common
-apt-get install -y curl
 echo "SS"
 curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
 sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
