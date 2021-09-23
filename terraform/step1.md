@@ -1,3 +1,5 @@
+Installing Terraform
+Wait for the Terraform to be ready
 
 `mkdir -p ~/.terraform.d/plugins/github.com/keeper/keeper`{{execute}}
 
