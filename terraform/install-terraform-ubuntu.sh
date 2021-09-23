@@ -17,7 +17,6 @@ apt update -y
 apt install -y terraform
 
 # Enable tab completion
-touch ~/.bashrc
 terraform -install-autocomplete
 
 echo "Terraform was installed" >> /opt/.backgroundfinished
