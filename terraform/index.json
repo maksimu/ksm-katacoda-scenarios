@@ -4,10 +4,15 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Install Terraform",
         "text": "step1.md"
       }
-    ]
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "install-terraform-ubuntu.sh"
+
+    }
   },
   "environment": {
     "uilayout": "terminal"
