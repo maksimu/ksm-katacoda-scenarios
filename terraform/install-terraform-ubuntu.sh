@@ -15,8 +15,6 @@ apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_re
 # Update to add the repository, and install the Terraform CLI.
 apt update -y
 apt install -y terraform
-
-# Enable tab completion
 terraform -install-autocomplete
 
 echo "Terraform was installed" >> /opt/.backgroundfinished
