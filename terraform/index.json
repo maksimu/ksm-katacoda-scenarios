@@ -20,9 +20,11 @@
     }
   },
   "environment": {
+    "hideintro": true, 
+    "hidefinish": true,
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "golang:1.14"
+    "imageid": "ubuntu"
   }
 }
