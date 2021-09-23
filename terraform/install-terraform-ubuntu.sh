@@ -1,3 +1,4 @@
+#!/bin/bash
 
 
 # Install Terraform CLI in Ubuntu
@@ -18,6 +19,7 @@ sudo apt-get update && sudo apt-get install terraform
 touch ~/.bashrc
 terraform -install-autocomplete
 
+echo "Terraform was installed" >> /opt/.backgroundfinished
 
 
 
