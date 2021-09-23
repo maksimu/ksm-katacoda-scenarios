@@ -5,7 +5,7 @@
 # Source: https://learn.hashicorp.com/tutorials/terraform/install-cli
 echo "DDD"
 apt-get update
-apt-get install -y curl
+# apt-get install -y curl
 apt-get install -y gnupg 
 apt-get install -y software-properties-common
 echo "SS"
