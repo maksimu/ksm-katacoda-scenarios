@@ -15,6 +15,7 @@
     }
   },
   "environment": {
+    "uieditorpath": "/root/ksm-sample",
     "hideintro": true, 
     "hidefinish": true,
     "uilayout": "vscode-terminal-split"
