@@ -7,7 +7,12 @@
         "title": "Hello KSM",
         "text": "step1.md"
       }
-    ]
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "install-golang-ubuntu.sh"
+
+    }
   },
   "environment": {
     "hideintro": true, 
@@ -15,6 +20,6 @@
     "uilayout": "vscode-terminal-split"
   },
   "backend": {
-    "imageid": "golang:1.16"
+    "imageid": "ubuntu:2004"
   }
 }
