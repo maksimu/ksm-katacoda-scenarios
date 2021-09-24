@@ -1,0 +1,20 @@
+{
+  "title": "KSM Go Example",
+  "description": "",
+  "details": {
+    "steps": [
+      {
+        "title": "Hello KSM",
+        "text": "step1.md"
+      }
+    ]
+  },
+  "environment": {
+    "hideintro": true, 
+    "hidefinish": true,
+    "uilayout": "vscode-terminal-split"
+  },
+  "backend": {
+    "imageid": "golang:1.16"
+  }
+}
