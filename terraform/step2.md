@@ -38,7 +38,7 @@ output "kc_secret_password" {
   value = data.keeper_secret_login.kc-secret.password
   sensitive = true
 }
-```
+```{{copy}}
 
 `terraform init`{{execute}}
 
