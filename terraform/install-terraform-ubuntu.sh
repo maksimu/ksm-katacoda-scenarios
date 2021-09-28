@@ -4,7 +4,6 @@ set -e
 
 # Install Terraform CLI in Ubuntu
 # Source: https://learn.hashicorp.com/tutorials/terraform/install-cli
-echo "DDD"
 apt update -y || true
 # apt-get install -y curl
 # apt-get install -y gnupg 
