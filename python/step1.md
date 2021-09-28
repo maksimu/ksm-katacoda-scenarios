@@ -1,3 +1,0 @@
-
-
-`myfile.py`{{open}}

@@ -10,9 +10,11 @@
     ]
   },
   "environment": {
-    "uilayout": "terminal"
+    "hideintro": true, 
+    "hidefinish": true,
+    "uilayout": "vscode-terminal-split"
   },
   "backend": {
-    "imageid": "javascript"
+    "imageid": "python:3.8"
   }
 }
