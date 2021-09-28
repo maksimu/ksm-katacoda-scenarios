@@ -1,26 +1,24 @@
-
-Install KSM SDK
-
-`pip3 install -U keeper-secrets-manager-core`{{execute}}
-
+KSM Python SDK with Cache
 
 Create sample application file
-`touch main.py`{{execute}}
-
+`touch main-cache.py`{{execute}}
 
 Open file in Editor:
 
-`main.py`{{open}}
+`main-cache.py`{{open}}
 
 Sample code
+
 ```python
 from keeper_secrets_manager_core import SecretsManager
+from keeper_secrets_manager_core.core import KSMCache
 from keeper_secrets_manager_core.storage import FileKeyValueStorage
 
 secrets_manager = SecretsManager(
     hostname='keepersecurity.com',
     token='<One Time Access Token>',
-    config=FileKeyValueStorage('ksm-config.json')
+    config=FileKeyValueStorage('ksm-config.json'),
+    custom_post_function=KSMCache.caching_post_function
 )
 
 # get all records
@@ -29,7 +27,7 @@ all_secrets = secrets_manager.get_secrets()
 # print out all records
 for secret in all_secrets:
     print(secret.dict)
-
+    
 ```{{copy}}
 
-`python3 main.py`{{execute}}
+`python3 main-cache.py`{{execute}}
