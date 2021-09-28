@@ -1,21 +1,19 @@
 #!/bin/bash
 
-set -e
-
 # Install Terraform CLI in Ubuntu
 # Source: https://learn.hashicorp.com/tutorials/terraform/install-cli
-apt update -y || true
+apt update -y
 # apt-get install -y curl
 # apt-get install -y gnupg 
-apt install -y software-properties-common || true
+apt install -y software-properties-common
 
-curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add - || true
-apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main" || true
+curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add - 
+apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
 
 # Update to add the repository, and install the Terraform CLI.
-apt update -y || true
+apt update -y
 echo "2"
-apt install -y terraform || true
+apt install -y terraform
 echo "3"
 
 # echo "Terraform was installed" >> /opt/.backgroundfinished
