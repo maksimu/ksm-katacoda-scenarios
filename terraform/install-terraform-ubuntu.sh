@@ -18,9 +18,7 @@ echo "2"
 apt install -y terraform || true
 echo "3"
 
-terraform -install-autocomplete
-
-echo "Terraform was installed" >> /opt/.backgroundfinished
+# echo "Terraform was installed" >> /opt/.backgroundfinished
 
 
 
