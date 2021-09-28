@@ -8,15 +8,18 @@
         "text": "step1.md"
       },
       {
-        "title": "Install Terraform",
+        "title": "Create Simple Terraform script",
         "text": "step2.md"
+      },
+      {
+        "title": "Create Advanced Terraform script",
+        "text": "step3.md"
       }
 
     ],
     "intro": {
       "text": "intro.md",
       "code": "install-terraform-ubuntu.sh"
-
     }
   },
   "environment": {
