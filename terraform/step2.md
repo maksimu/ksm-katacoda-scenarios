@@ -1,13 +1,5 @@
 
-Create script file
-`touch main.tf`{{execute}}
-
-
-Open file in Editor:
-`main.tf`{{open}}
-
-
-```
+<pre class="file" data-filename="main.tf" data-target="replace">
 terraform {
   required_version = ">= 1.0.0"
   required_providers {
@@ -35,7 +27,8 @@ output "kc_secret_password" {
   value = data.keeper_secret_login.kc-secret.password
   sensitive = true
 }
-```{{copy}}
+</pre>
+
 
 Inialize Terraform
 `terraform init`{{execute}}
@@ -50,8 +43,3 @@ Check for changes (will notify that no changes were made):
 `terraform plan`{{execute}}
 
 Modify login name, password or both in Keeper Vault for the record provided in terraform file OR modify in the `terraform.tfstate`{{open}} file. Then check for changes with `terraform plan`{{execute}} and apply new changes using `terraform apply -auto-approve`{{execute}}
-
-
-<pre class="file" data-filename="app.js" data-target="replace">
-WHATEVER CODE
-</pre>
