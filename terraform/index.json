@@ -8,12 +8,16 @@
         "text": "step1.md"
       },
       {
-        "title": "Create Simple Terraform script",
+        "title": "Create Terraform script",
         "text": "step2.md"
       },
       {
-        "title": "Create Advanced Terraform script",
+        "title": "Check for changes",
         "text": "step3.md"
+      },
+      {
+        "title": "Create Advanced Terraform script",
+        "text": "step4.md"
       }
 
     ],

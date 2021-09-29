@@ -1,5 +1,5 @@
 
-<pre class="language-plaintext" data-filename="main.tf" data-target="replace">
+<pre class="file" data-filename="main.tf" data-target="replace">
 terraform {
   required_version = ">= 1.0.0"
   required_providers {
@@ -29,16 +29,14 @@ output "kc_secret_password" {
 }
 </pre>
 
-Inialize Terraform
+## Replace credentials in main.tf file
+
+## Inialize Terraform
 `terraform init`{{execute}}
 
 Execute Terraform steps
 `terraform apply -auto-approve`{{execute}}
 
-View terraform state file
+View terraform state file.
 `terraform.tfstate`{{open}}
 
-Check for changes (will notify that no changes were made):
-`terraform plan`{{execute}}
-
-Modify login name, password or both in Keeper Vault for the record provided in terraform file OR modify in the `terraform.tfstate`{{open}} file. Then check for changes with `terraform plan`{{execute}} and apply new changes using `terraform apply -auto-approve`{{execute}}
