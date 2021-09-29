@@ -1,5 +1,5 @@
 
-<pre class="file" data-filename="main.tf" data-target="replace">
+<pre class="language-plaintext" data-filename="main.tf" data-target="replace">
 terraform {
   required_version = ">= 1.0.0"
   required_providers {
@@ -28,7 +28,6 @@ output "kc_secret_password" {
   sensitive = true
 }
 </pre>
-
 
 Inialize Terraform
 `terraform init`{{execute}}

@@ -7,10 +7,8 @@ Open file in Editor:
 `main.tf`{{open}}
 
 
-QabbPIdM8Unw4hwVM-F8VQ
 
-
-```
+<pre class="language-plaintext" data-filename="main.tf" data-target="replace">
 terraform {
   required_version = ">= 1.0.0"
   required_providers {
@@ -79,4 +77,4 @@ EOT
 output "db_secret_login" {
   value = data.keeper_secret_login.kc-secret.login
 }
-```
+</pre>
