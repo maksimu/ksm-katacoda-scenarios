@@ -1,4 +1,10 @@
-<pre class="file" data-filename="mysql-example/main.tf" data-target="replace">
+Create and navigate to the new folder where we will place new Terraform configuration file
+
+`mkdir ~/mysql-example && cd ~/mysql-example`
+
+Create Terraform configuration file
+
+<pre class="file" data-filename="main.tf" data-target="replace">
 terraform {
   required_providers {
     docker = {
@@ -21,11 +27,9 @@ provider "keeper" {
   # credential = file("~/.keeper/credential")
 }
 
-
 data "keeper_secret_login" "tf_mysql" {
   path       = "[LOGIN RECORD UID]" 
 }
-
 
 # Create a docker image resource
 # -> same as 'docker pull mysql:latest'
