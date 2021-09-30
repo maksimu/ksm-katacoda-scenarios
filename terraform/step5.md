@@ -1,10 +1,10 @@
 Create and navigate to the new folder where we will place new Terraform configuration file
 
-`mkdir ~/mysql-example && cd ~/mysql-example`
+`mkdir ~/mysql-example && cd ~/mysql-example`{{execute}}
 
 Create Terraform configuration file
 
-<pre class="file" data-filename="main.tf" data-target="replace">
+<pre class="file" data-filename="mysql-example/main.tf" data-target="replace">
 terraform {
   required_providers {
     docker = {
