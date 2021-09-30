@@ -54,7 +54,7 @@ resource "docker_container" "mysql" {
 </pre>
 
 Initialize and apply Terraform Configuration
-`terraform init && terraform apply`
+`terraform init && terraform apply`{{execute}}
 
 In order to connect to MySQL, we need to install MySQL Client
 
@@ -64,8 +64,16 @@ Connect to MySQL:
 
 `mysql -h 127.0.0.1 -P 3306 --protocol=tcp -p`{{execute}}
 
-Enter your password from Keeper's record
+Enter your password from Keeper's record in the CLI prompt.
 
-Clenup resources
+Once connected to MySQL server you should see
 
-`terraform destroy`{{execute}}
+```bash
+mysql>
+```
+
+To exit from MySQL shell just type `exit;`{{execute}}
+
+Now, try to change password to the db in Keeper and re-apply the changes by executing `terraform apply`{{execute}} and then connect to the MySQL
+`mysql -h 127.0.0.1 -P 3306 --protocol=tcp -p`{{execute}}
+and enter new password
