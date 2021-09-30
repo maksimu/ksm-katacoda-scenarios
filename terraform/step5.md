@@ -60,7 +60,7 @@ Initialize and apply Terraform Configuration
 
 In order to connect to MySQL, we need to install MySQL Client
 
-`apt install mysql-client-core-5.7`{{execute}}
+`apt install -y mysql-client-core-5.7`{{execute}}
 
 Connect to MySQL:
 
