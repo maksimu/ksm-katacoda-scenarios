@@ -23,6 +23,8 @@ terraform {
 provider "docker" {}
 
 provider "keeper" {
+  # This is where KSM's configuration file will be injected securely. It is up to the user
+  # to properly secure this configuration string or file and inected it securely.
   credential = "[CONFING BASE64]"
   # credential = file("~/.keeper/credential")
 }
