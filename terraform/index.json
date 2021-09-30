@@ -30,6 +30,7 @@
     }
   },
   "environment": {
+    "showide": true,
     "hideintro": true, 
     "hidefinish": true,
     "uilayout": "vscode-terminal-split"
