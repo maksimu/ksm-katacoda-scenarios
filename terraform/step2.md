@@ -11,12 +11,12 @@ terraform {
 }
 
 provider "keeper" {
-  credential = "<CONFIG JSON or BASE64>"
-  # credential = file("~/.keeper/credential")
+  credential = "[CONFIG JSON or BASE64]"
+  # credential = file("~/.keeper/config.json")
 }
 
 data "keeper_secret_login" "kc-secret" {
-  path       = "<UID TO LOGIN TYPE RECORD>" # QabbPIdM8Unw4hwVM-F8VQ
+  path       = "[UID TO LOGIN TYPE RECORD]" # QabbPIdM8Unw4hwVM-F8VQ
 }
 
 output "kc_secret_login" {
