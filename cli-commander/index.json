@@ -1,16 +1,6 @@
 {
-
   "noindex": true,
-
   "title": "Commander CLI",
-
-  "environment": {
-    "hideintro": true, 
-    "hidefinish": true,
-
-    "uilayout": "terminal"
-  },
-
   "details": {
     "steps": [
         {
@@ -24,13 +14,17 @@
       ],
     "intro": {
         "text": "intro.md",
-        "code": "foreground.sh",
+        "courseData": "install-commander.sh",
         "credits": ""
     }
-},
+  },
 
-
-
+  "environment": {
+    "showide": true,
+    "hideintro": true,
+    "hidefinish": true,
+    "uilayout": "terminal"
+  },
   "backend": {
     "imageid": "python:3.8"
   }

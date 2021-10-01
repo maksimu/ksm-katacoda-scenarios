@@ -4,13 +4,20 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Hello World C#",
         "text": "step1.md"
+      },
+      {
+        "title": "Adding KSM",
+        "text": "step2.md"
       }
     ]
     
   },
   "environment": {
+    "showide": true,
+    "hideintro": true,
+    "hidefinish": true,
     "uilayout": "terminal"
   },
   "backend": {
