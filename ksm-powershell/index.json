@@ -1,28 +1,24 @@
 {
-  "title": "KSM in Commander",
+  "title": "KSM PowerShell",
   "description": "",
   "details": {
     "steps": [
       {
-        "title": "Disclaimer & Login",
+        "title": "Install PowerShell",
         "text": "step0.md"
       },
       {
-        "title": "Application Management",
+        "title": "Configure KSM",
         "text": "step1.md"
       },
       {
-        "title": "Application Secrets",
+        "title": "Usage",
         "text": "step2.md"
-      },
-      {
-        "title": "Application Clients/Devices",
-        "text": "step3.md"
       }
     ],
     "intro": {
       "text": "intro.md",
-      "code": "install-commander.sh"
+      "code": "install-powershell-ubuntu.sh"
     }
   },
   "environment": {
@@ -32,6 +28,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "python:3.8"
+    "imageid": "ubuntu"
   }
 }
