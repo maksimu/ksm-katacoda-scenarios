@@ -2,13 +2,13 @@
 
   "noindex": true,
 
-  "title": "KSM CLI Concepts",
+  "title": "Secrets Management CLI",
 
   "environment": {
     "hideintro": true, 
     "hidefinish": true,
 
-    "uilayout": "terminal"
+    "uilayout": "editor-terminal"
   },
 
   "details": {
